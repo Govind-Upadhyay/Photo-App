@@ -40,5 +40,13 @@ body {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 400px;
+  text-shadow: -1px 0 #555, 0 1px #555, 1px 0 #555, 0 -1px #555;
 } 
+
+.features {
+  ul {
+    margin-left: 0;
+    padding-left: 15px;
+    list-style: none;
+  }
+}
