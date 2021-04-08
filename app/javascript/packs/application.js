@@ -11,6 +11,7 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+require("custom/credit_card_form")
 
 import "bootstrap" 
-import "packs/credit_card_form"
+import "custom/credit_card_form"
