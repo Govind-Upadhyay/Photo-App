@@ -30,7 +30,7 @@
 
 
 <script type="text/javascript">
-  var stripe = Stripe("<%= Rails.application.credentials.stripe[:stripe_publishable_key] %>");
+  var stripe = Stripe("<%= ENV['PUBLISHABLE_KEY'] ||= Rails.application.credentials.stripe[:stripe_publishable_key] %>");
   var elements = stripe.elements();
   var card = elements.create('card', {
     'style': {
