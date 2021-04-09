@@ -27,9 +27,8 @@ gem 'devise-bootstrap-views', '~> 1.0'
 gem 'stripe'
 # gem "font-awesome-rails"
 gem 'carrierwave', '~> 2.2', '>= 2.2.1'
-gem 'fog-aws', '~> 3.10'
 gem 'mini_magick', '~> 4.11'
-gem 'fog'
+
 
 
 # Use Active Storage variant
